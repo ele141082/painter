@@ -9,6 +9,23 @@
     background-color: blue;
 }
 
+.btn{
+    padding:15px 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: transparent;
+    font-weight: bold;
+
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus{
+    color: white;
+    cursor: pointer;
+}
+
+
 .header{
     background-color: yellow;
 }
@@ -19,6 +36,11 @@
     margin:0 auto;
 }
 .jumbo{
+    padding: 140px;
+    background-image: url(../hero-pe-8.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }
 
@@ -71,19 +93,58 @@
 .sign-in:hover,
 .sign-in:active,
 .sign-in:focus{
-    color: white;
     background-color: blue;
+    color: white;
     cursor: pointer;
 }
 
-.icon-user{
+.sign-in .icon-user{
     padding: 0 2px;
     border: 1px solid black;
     border-radius: 2px;
+
 }
 
 .sign-in:hover,.icon-user,
 .sign-in:active,.icon-user,
 .sign-in:focus .icon-user{
     border: 1px solid white;
+}
+
+.jumbo-content{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.jumbo-content ul{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    list-style-type: ">";
+    
+}
+
+.jumbo-content h1,
+.jumbo-content h2{
+    margin-bottom: 15px;
+}
+
+.download{
+    padding: 7px 15px;
+    border: 2px solid black;
+    margin-left: 40px;
+
+
+}
+
+.jumbo-content ul li{
+    margin-bottom: 10px;
+    padding-left: 6px;
+}
+
+
+.download:hover,
+.download:active,
+.download:focus{
+    background-color: black;
+    color: white;
 }
